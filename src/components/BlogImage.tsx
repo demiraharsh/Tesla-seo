@@ -40,7 +40,7 @@ export function BlogImage({
             width={width}
             height={height}
             loading={priority ? "eager" : "lazy"}
-            fetchPriority={priority ? "high" : "auto"}
+            fetchpriority={priority ? "high" : "auto"}
             onLoad={() => setIsLoaded(true)}
             onError={() => setHasError(true)}
             className={`w-full h-full object-cover transition-opacity duration-300 ${
