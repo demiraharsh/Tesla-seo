@@ -1,0 +1,6 @@
+{
+  "name": "TeslaDrive - Independent Tesla Automotive & EV Guide",
+  "description": "An independent educational automotive blog exploring Tesla electric vehicles, battery tech, charging, and sustainable mobility for a college SEO project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

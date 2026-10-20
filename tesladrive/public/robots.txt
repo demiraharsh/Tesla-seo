@@ -1,0 +1,7 @@
+# Robots.txt for TeslaDrive - Independent Educational Automotive Blog
+# College SEO Assignment Project
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://tesladrive-blog.vercel.app/sitemap.xml

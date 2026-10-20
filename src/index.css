@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --tesla-white: #FFFFFF;
+    --tesla-light: #F4F4F4;
+    --tesla-light-alt: #F7F7F7;
+    --tesla-black: #171a20;
+    --tesla-red: #E82127;
+    --tesla-muted: #5c5e62;
+    --tesla-border: #E2E2E2;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #171a20;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #171a20;
+    letter-spacing: -0.015em;
+  }
+
+  .tesla-header-tracking {
+    letter-spacing: 0.12em;
+  }
+
+  .tesla-pill-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+/* Minimalist Tesla light scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #D0D1D2;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B0B2B5;
+}
